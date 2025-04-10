@@ -151,7 +151,7 @@ def main():
 
     pygame.init()
     screen = pygame.display.set_mode((WIDTH, HEIGHT))
-    clock = pygame.Clock()
+    clock = pygame.time.Clock()
     font = pygame.font.SysFont(None, 50)
     small_font = pygame.font.SysFont(None, 30)
 
